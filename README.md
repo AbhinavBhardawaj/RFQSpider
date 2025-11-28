@@ -30,5 +30,6 @@ Designed to reduce manual data collection time from *hours to minutes* with reli
 ## 📸 Screenshots
 
 <img src="screenshot/Working.png" width="500">
-
+<img src="screenshot/output_csv.png" width="500">
+<img src="screenshot/terminal.png" width="500">
 
