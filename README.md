@@ -26,3 +26,6 @@ Designed to reduce manual data collection time from *hours to minutes* with reli
 - **ChromeDriver** (or your preferred browser driver)
 
 ---
+
+## 📸 Screenshots
+
