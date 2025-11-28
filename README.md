@@ -31,7 +31,7 @@ Designed to reduce manual data collection time from *hours to minutes* with reli
 
 <!-- Row 1 -->
 <p align="center">
-  <img src="screenshot/Working.png" width="350">
+  <img src="screenshot/Working.png" width="500">
   <img src="screenshot/terminal.png" width="350">
 </p>
 
