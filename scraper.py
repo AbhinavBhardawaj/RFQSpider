@@ -4,6 +4,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.chrome.options import Options
+from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
 import os
 
@@ -16,10 +18,13 @@ from utils import (
 
 # Setting up selenium chromedriver
 def setup_driver():
-    options = webdriver.ChromeOptions()
+    options = Options()
     options.add_argument("--start-maximized")
-    service = Service(executable_path="C://Users//Abhinav//Desktop//Pytask//chromedriver-win64//chromedriver.exe")
-    driver = webdriver.Chrome(service=service, options=options)
+
+    driver = webdriver.Chrome(
+        service=Service(ChromeDriverManager().install()),
+        options=options
+    )
     return driver
 
 # scrape a single page of RFQs
