@@ -29,4 +29,6 @@ Designed to reduce manual data collection time from *hours to minutes* with reli
 
 ## 📸 Screenshots
 ```markdown
-![Scraper Output](screenshot/Working.png)
+```markdown
+screenshot/Working.png
+
